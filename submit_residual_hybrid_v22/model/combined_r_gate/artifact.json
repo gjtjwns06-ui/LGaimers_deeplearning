@@ -1,0 +1,41 @@
+{
+  "kind": "combined_signal_r_complement_gate_v1",
+  "decision": "PASS",
+  "scope": "R",
+  "formula": "p_v21 + weight(uncertainty,direction) * (p_combined_dl - p_v21)",
+  "selection_source": "months<=5 -> months6-7, then months<=7 -> months>=8",
+  "allowed_groups": [
+    "far|up",
+    "u050|down"
+  ],
+  "gate": {
+    "columns": [
+      "uncertainty",
+      "direction"
+    ],
+    "shrink_rows": 250,
+    "cap": 0.3,
+    "global_weight": 0.0,
+    "groups": {
+      "far|down": 0.0,
+      "far|up": 0.3,
+      "u025|down": 0.0,
+      "u025|up": 0.0,
+      "u050|down": 0.1669215176300557,
+      "u050|up": 0.0
+    }
+  },
+  "fit_rows": 223497,
+  "group_rows": {
+    "far|down": 36618,
+    "far|up": 25822,
+    "u025|down": 56143,
+    "u025|up": 37859,
+    "u050|down": 39507,
+    "u050|up": 27548
+  },
+  "mean_weight": 0.0641671628568196,
+  "fit_brier_base": 0.24765810475299763,
+  "fit_brier_candidate": 0.24764176544737718,
+  "fit_delta": -1.6339305620449718e-05
+}

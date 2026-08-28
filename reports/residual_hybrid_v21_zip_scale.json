@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "hidden_rows": 245789,
+  "zip_seconds": 40.28,
+  "rows_out": 245789,
+  "prediction_mean": 0.5115258704595981,
+  "prediction_std": 0.049222198313851676,
+  "prediction_min": 0.1261628998616566,
+  "prediction_max": 0.8100201177892321,
+  "source_zip_parity_max_abs": 1.0087828350435757e-08,
+  "stdout": "Saved output\\submission.csv (245,789 rows, uncertain_rows=95,984, applied_rows=87,909, f_shape_rows=27,044, f_shape_mean=0.00251027, mean_gate=0.090505, mean_residual=-0.000402)",
+  "row_id_preserved": true,
+  "row_count": true,
+  "finite_in_unit_interval": true,
+  "source_zip_parity": true,
+  "within_600s_budget": true
+}

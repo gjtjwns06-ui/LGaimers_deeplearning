@@ -1,0 +1,19 @@
+{
+  "artifact_version": 1,
+  "architecture": "recent_regime_rate_basis_exclusive_ensemble_v1",
+  "model_files": [
+    "model_seed_42.npz",
+    "model_seed_2026.npz",
+    "model_seed_3407.npz"
+  ],
+  "files_sha256": {
+    "preprocessor.json": "ef9334b6b46cad2827d7f4b3bfa5c6ec72aa6024148abe66b918667d7e195170",
+    "model_config.json": "06971853970bad2ed0fc80b2576f81f0445f7e2d6d4f7c5ca027411facdf2fc1",
+    "training_record.json": "0454dcec185ef4cd796b429d9f3848105b0235a18df336eb8690f66fdb778d00",
+    "model_seed_42.npz": "4867c9b71c1efab74b60e9a3db60894c11bac7f52275ef98f98b61f2e531269b",
+    "model_seed_2026.npz": "ff7143dbcf6898d8d6482f1acde7a5c0f96db5b58146fc8ba9d94440d1558e27",
+    "model_seed_3407.npz": "8427b3c659010883e8ad7d492863afb41810346d40d9944c24ede2122ad50d54"
+  },
+  "row_independent_inference": true,
+  "obsolete_pre_2023_f_training_rows": 0
+}

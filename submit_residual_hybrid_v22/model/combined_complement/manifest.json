@@ -1,0 +1,60 @@
+{
+  "kind": "combined_signal_dcnv2_multitask_complement_v1",
+  "training_seasons": [
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "training_rows": 1475092,
+  "epochs": 3,
+  "scheduler_epochs": 4,
+  "checkpoint_mode": "last",
+  "seed": 42,
+  "r_decay": 0.6,
+  "f_decay": 0.08,
+  "weighted_target_rate": 0.49885448813438416,
+  "history": [
+    {
+      "epoch": 1.0,
+      "train_loss": 1.0256185140983431,
+      "train_main_loss": 0.9379679581430542,
+      "train_auxiliary_loss": 0.5843370566253182,
+      "train_consistency_loss": 0.0,
+      "learning_rate": 0.0006887005768508881,
+      "brier": 0.25467217314353113,
+      "brier_skill": -0.034475759726223076,
+      "competition_score": 0.0,
+      "log_loss": 0.7028557629283773,
+      "ece_15": 0.09313805600322667
+    },
+    {
+      "epoch": 2.0,
+      "train_loss": 1.0242441957501691,
+      "train_main_loss": 0.9368746060152762,
+      "train_auxiliary_loss": 0.5824639175934643,
+      "train_consistency_loss": 0.0,
+      "learning_rate": 0.00042,
+      "brier": 0.24783107719757827,
+      "brier_skill": -0.006687298039594003,
+      "competition_score": 0.0,
+      "log_loss": 0.6888549771335228,
+      "ece_15": 0.05950845535699045
+    },
+    {
+      "epoch": 3.0,
+      "train_loss": 1.0230893010295672,
+      "train_main_loss": 0.9358180066888918,
+      "train_auxiliary_loss": 0.5818086100466807,
+      "train_consistency_loss": 0.0,
+      "learning_rate": 0.00015129942314911197,
+      "brier": 0.24526616991309472,
+      "brier_skill": 0.0037313290879485983,
+      "competition_score": 373.1329087948598,
+      "log_loss": 0.6836578286970741,
+      "ece_15": 0.031445040462131146
+    }
+  ]
+}

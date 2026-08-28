@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+artifacts/
+outputs/
+submit.zip
+data/derived/
+data/train.csv
+data/trackman_history.csv
+data/development_2019_2023.csv
+data/development_2019_2023.v1.csv

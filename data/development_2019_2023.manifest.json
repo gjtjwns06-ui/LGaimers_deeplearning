@@ -1,0 +1,41 @@
+{
+  "artifact": "development_snapshot_v2",
+  "policy": {
+    "included_seasons": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "excluded_seasons": [
+      2024
+    ],
+    "excluded_row_fields_lexically_parsed": [
+      "row_id",
+      "season"
+    ],
+    "excluded_target_lexically_parsed": false,
+    "excluded_target_semantically_parsed": false,
+    "byte_dialect_contract": "official header order; unquoted ASCII row_id/season prefix; one official record per physical line"
+  },
+  "source": {
+    "path": "C:\\Users\\gjtjw\\Downloads\\LGaimers_deeplearning\\data\\train.csv",
+    "sha256": "d2081186b458b49f60b082be480c273135833e15ba59a76d033af28bcf8763ff",
+    "rows": 1475092
+  },
+  "output": {
+    "path": "C:\\Users\\gjtjw\\Downloads\\LGaimers_deeplearning\\data\\development_2019_2023.csv",
+    "sha256": "db3041f268818b473b782bf36931f4fea1242b87d9a327fedfea0fbc67e5d3aa",
+    "rows": 1221585,
+    "season_counts": {
+      "2019": 237413,
+      "2020": 244087,
+      "2021": 247088,
+      "2022": 247472,
+      "2023": 245525
+    }
+  },
+  "excluded_rows": 253507,
+  "contract_sha256": "7616d220f9d674bc43328410b37bcdf0b1053750ef27abbe62fa126eb0db6d64"
+}

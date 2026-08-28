@@ -1,0 +1,39 @@
+{
+  "artifact": "development_snapshot_v1",
+  "policy": {
+    "included_seasons": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023
+    ],
+    "excluded_seasons": [
+      2024
+    ],
+    "excluded_row_fields_inspected": [
+      "row_id",
+      "season"
+    ],
+    "excluded_target_parsed": false
+  },
+  "source": {
+    "path": "C:\\Users\\gjtjw\\Downloads\\LGaimers_deeplearning\\data\\train.csv",
+    "sha256": "d2081186b458b49f60b082be480c273135833e15ba59a76d033af28bcf8763ff",
+    "rows": 1475092
+  },
+  "output": {
+    "path": "C:\\Users\\gjtjw\\Downloads\\LGaimers_deeplearning\\data\\development_2019_2023.csv",
+    "sha256": "4b9e8e1a63e94ba108823019cff855bc1e2d496de2cbfc050378f9b3534bc6ef",
+    "rows": 1221585,
+    "season_counts": {
+      "2019": 237413,
+      "2020": 244087,
+      "2021": 247088,
+      "2022": 247472,
+      "2023": 245525
+    }
+  },
+  "excluded_rows": 253507,
+  "contract_sha256": "b386db44165799e797439d8cdccef784c71ff59076ee9c9fa0978ff5f86b8b45"
+}

@@ -1,0 +1,38 @@
+{
+  "kind": "v17_recent_regime_complementary_gate_v1",
+  "keys": [
+    "game_type",
+    "count",
+    "direction"
+  ],
+  "fallback_weight": 0.11071717281335886,
+  "maximum_weight": 0.15,
+  "formula": "p_v17 + weight(state) * (p_dl - p_v17)",
+  "metadata": {
+    "fit_season": 2024,
+    "fit_source": "aligned leakage-safe v17 and recent-DL OOF",
+    "selection_train_months": [
+      3,
+      4,
+      5
+    ],
+    "selection_validation_months": [
+      6,
+      7
+    ],
+    "forward_audit_train_months": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "forward_audit_months": [
+      8,
+      9,
+      10
+    ],
+    "shrink_rows": 250,
+    "decision": "PASS"
+  }
+}

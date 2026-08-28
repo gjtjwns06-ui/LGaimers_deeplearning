@@ -1,0 +1,2 @@
+# The evaluation image already provides compatible torch, pandas, numpy, and scipy.
+# Intentionally no packages: submission installation requires no network access.
